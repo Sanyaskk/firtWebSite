@@ -1,84 +1,105 @@
 .nav-list {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
-    background-color: #F5D04E;;
+  background-color: #f5d04e;
 }
 
 .mainBlock {
-    background-color: #F4F4F4;
-    margin: 210px 660px;
-    height: 690px;
-    border-radius: 30px;
-    box-shadow: 10px 10px 1px rgba(0, 0, 0, 1);
+  background-color: #f4f4f4;
+  margin: 150px auto;
+  width: 584px;
+  height: 690px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 1px rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .mainBlock {
+    width: 400px;
+  }
+}
+
+.imgContainer {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mainImg {
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 30px;
-    border-radius: 30px;
-    width: 510px;
-    height: 220px;
+  margin-top: 20px;
+  border-radius: 30px;
+  width: 510px;
+  height: 220px;
+}
+
+@media screen and (max-width: 768px) {
+  .mainImg {
+    width: 340px;
+    height: 150px;
+  }
 }
 
 .learnBut {
-    background-color: #F5BC4E;
-    margin-bottom: 15px;
-    margin-left: 25px;
-    height: 35px;
-    width: 125px;
-    border-radius: 30px;
+  background-color: #f5bc4e;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  height: 35px;
+  width: 125px;
+  border-radius: 30px;
 }
 
 .learnText {
-    padding-left: 20px;
-    padding-top: 7px;
-    font-family: "Unbounded";
-    font-style: normal;
-    color: black;
+  padding-left: 20px;
+  padding-top: 7px;
+  font-family: "Unbounded";
+  font-style: normal;
+  color: black;
 }
 
 .dateInfo {
-    font-family: "Unbounded";
-    font-style: normal;
-    color: black;
-    font-weight: 200;
-    margin-left: 25px;
-    margin-bottom: 30px;
+  font-family: "Unbounded";
+  font-style: normal;
+  color: black;
+  font-weight: 200;
+  margin-left: 25px;
+  margin-bottom: 30px;
 }
 
 .mainText {
-    font-family: "Unbounded";
-    font-style: bold;
-    color: black;
-    margin-left: 25px;
-    margin-bottom: 10px;
+  font-family: "Unbounded";
+  color: black;
+  margin-left: 25px;
+  margin-bottom: 10px;
 }
 
 .descInfo {
-    font-family: "Unbounded";
-    font-style: normal;
-    color: black;
-    font-weight: 250;
-    margin-left: 25px;
-    margin-bottom: 40px;
+  font-family: "Unbounded";
+  font-style: normal;
+  color: black;
+  font-weight: 250;
+  margin-left: 25px;
+  margin-bottom: 40px;
 }
 
 .avaImg {
-    height: 55px;
-    width: 55px;
-    margin-left: 25px;
-    margin-right: 10px;
+  height: 55px;
+  width: 55px;
 }
 
 .name {
-    font-family: "Unbounded";
-    font-style: bold;
-    color: black;
-    margin-left: 100px;
-    margin-bottom: 500px;
+  font-family: "Unbounded";
+  font-style: bold;
+  color: black;
+  margin: 0;
+}
+
+.userInfo {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
