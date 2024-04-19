@@ -82,7 +82,7 @@ header {
 
 .mainBlock {
   background-color: #f4f4f4;
-  margin: 150px auto;
+  margin: 150px auto 350px auto;
   width: 583px;
   height: 748px;
   border-radius: 30px;
@@ -177,4 +177,70 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.tailer {
+  background-color: #F0F0F0;
+  width: auto;
+  height: 105px;
+}
+
+.txtBlockNavT {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 45px;
+  border-right: 1px solid #585858; 
+  padding-right: 10px; 
+  height: 60px;
+}
+
+.txtButT1 {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  margin-top: 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.txtButT {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  margin-top: 5px;
+  color: black;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.pravaTailer {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  width: 280px;
+  height: 60px;
+  text-align: center;
+}
+
+.logoBut {
+  height: 15px;
+  width: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.iconLinks {
+  border-left: 1px solid #585858; 
+  padding-left: 10px; 
+  height: 60px;
+}
+
+.containerTailer {
+  background-color: #F0F0F0;
+  display: flex;
+  align-items: center;
+  gap: 725px;
+  height: 105px;
 }
