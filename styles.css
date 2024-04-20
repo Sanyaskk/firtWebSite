@@ -245,6 +245,13 @@ header {
   height: 60px;
 }
 
+@media screen and (max-width: 768px) {
+  .txtBlockNavT {
+    margin-left: 10px;
+    height: 30px;
+  }
+}
+
 .txtButT1 {
   font-family: "Unbounded", sans-serif;
   font-weight: 300;
@@ -254,6 +261,12 @@ header {
   text-decoration: none;
 }
 
+@media screen and (max-width: 768px) {
+  .txtButT1 {
+    margin-top: 1px;
+  }
+}
+
 .txtButT {
   font-family: "Unbounded", sans-serif;
   font-weight: 300;
@@ -261,7 +274,6 @@ header {
   margin-top: 5px;
   color: black;
   text-decoration: none;
-  margin-top: 5px;
 }
 
 .pravaTailer {
@@ -271,6 +283,13 @@ header {
   width: 280px;
   height: 60px;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .pravaTailer {
+    height: 65px;
+    width: 50px;
+  }
 }
 
 .logoBut {
@@ -287,10 +306,25 @@ header {
   height: 60px;
 }
 
+@media screen and (max-width: 768px) {
+  .iconLinks {
+    margin-right: 10px;
+    height: 30px;
+  }
+}
+
 .containerTailer {
   background-color: #F0F0F0;
   display: flex;
   align-items: center;
   gap: 725px;
   height: 105px;
+}
+
+@media screen and (max-width: 768px) {
+  .containerTailer {
+    gap: 105px;
+    height: 80px;
+    width: 500px;
+  }
 }
