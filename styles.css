@@ -14,6 +14,13 @@ header {
   width: auto;
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    width: 320px;
+    height: 20px;
+  }
+}
+
 .backgroundMenu {
   padding-top: 10px;
   border-bottom-left-radius: 20px;
@@ -23,9 +30,23 @@ header {
   align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .backgroundMenu {
+    width: 520px;
+    height: 30px;
+  }
+}
+
 .navigationMenu {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .navigationMenu {
+    height: 30px;
+    width: 320px;
+  }
 }
 
 .navigBut1 {
@@ -41,6 +62,14 @@ header {
   font-weight: 250;
 }
 
+@media screen and (max-width: 768px) {
+  .navigBut1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+}
+
 .navigBut {
   padding: 7px;
   margin-right: 30px;
@@ -53,11 +82,25 @@ header {
   font-weight: 250;
 }
 
+@media screen and (max-width: 768px) {
+  .navigBut {
+    margin-right: 10px;
+    font-size: 10px;
+  }
+}
+
 
 .personAva {
   height: 30px;
   width: 30px;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .personAva {
+    height: 20px;
+    width: 20px;
+  }
 }
 
 .userName {
@@ -80,6 +123,12 @@ header {
   gap: 1000px;
 }
 
+@media screen and (max-width: 768px) {
+  .mainUser {
+    gap: 75px;
+  }
+}
+
 .mainBlock {
   background-color: #f4f4f4;
   margin: 150px auto 350px auto;
@@ -92,6 +141,7 @@ header {
 @media screen and (max-width: 768px) {
   .mainBlock {
     width: 400px;
+    margin: 150px 30px 350px 30px;
   }
 }
 
