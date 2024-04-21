@@ -13,6 +13,13 @@
     height: 40px;
     width: auto;
   }
+
+  @media screen and (max-width: 768px) {
+    .header {
+      width: 320px;
+      height: 20px;
+    }
+  }
   
   .backgroundMenu {
     padding-top: 10px;
@@ -22,10 +29,24 @@
     display: flex;
     align-items: center;
   }
+
+  @media screen and (max-width: 768px) {
+    .backgroundMenu {
+      width: 520px;
+      height: 30px;
+    }
+  }
   
   .navigationMenu {
     display: flex;
     align-items: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .navigationMenu {
+      height: 30px;
+      width: 320px;
+    }
   }
   
   .navigBut1 {
@@ -40,6 +61,14 @@
     font-family: "Unbounded";
     font-weight: 250;
   }
+
+  @media screen and (max-width: 768px) {
+    .navigBut1 {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 10px;
+    }
+  }
   
   .navigBut {
     padding: 7px;
@@ -52,12 +81,26 @@
     font-family: "Unbounded";
     font-weight: 250;
   }
+
+  @media screen and (max-width: 768px) {
+    .navigBut {
+      margin-right: 10px;
+      font-size: 10px;
+    }
+  }
   
   
   .personAva {
     height: 30px;
     width: 30px;
     margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .personAva {
+      height: 20px;
+      width: 20px;
+    }
   }
   
   .userName {
@@ -79,6 +122,12 @@
     justify-content: space-around;
     gap: 1200px;
   }
+
+  @media screen and (max-width: 768px) {
+    .mainUser {
+      gap: 75px;
+    }
+  }
   
   .mainBlock {
     background-color: #f4f4f4;
@@ -92,6 +141,7 @@
   @media screen and (max-width: 768px) {
     .mainBlock {
       width: 400px;
+      margin: 150px 55px 350px 55px;
     }
   }
   
@@ -99,6 +149,12 @@
     height: 110px;
     width: 110px;
     margin: 50px 240px 60px 240px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .avaImg {
+      margin: 50px 150px 60px 150px;
+    }
   }
   
   .name {
@@ -137,6 +193,12 @@
     margin-left: 40px;
   }
 
+  @media screen and (max-width: 768px) {
+    .userInfo {
+      margin-left: 25px;
+    }
+  }
+
 
   .blockInfDesk {
     background-color: #DADADA;
@@ -145,11 +207,24 @@
     border-radius: 30px;
   }
 
+  @media screen and (max-width: 768px) {
+    .blockInfDesk {
+      width: 350px;
+      height: 160px;
+    }
+  }
+
   .txtDescription {
     font-family: "Unbounded", sans-serif;
     font-weight: 200;
     font-size: 17px;
     margin-left: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .txtDescription {
+      width: 330px;
+    }
   }
   
   .tailer {
@@ -168,6 +243,13 @@
     height: 60px;
   }
 
+  @media screen and (max-width: 768px) {
+    .txtBlockNavT {
+      margin-left: 10px;
+      height: 30px;
+    }
+  }
+
   .txtButT1 {
     font-family: "Unbounded", sans-serif;
     font-weight: 300;
@@ -175,6 +257,12 @@
     margin-top: 12px;
     color: black;
     text-decoration: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .txtButT1 {
+      margin-top: 1px;
+    }
   }
 
   .txtButT {
@@ -196,6 +284,13 @@
     text-align: center;
   }
 
+  @media screen and (max-width: 768px) {
+    .pravaTailer {
+      height: 65px;
+      width: 70px;
+    }
+  }
+
   .logoBut {
     height: 15px;
     width: 15px;
@@ -210,12 +305,27 @@
     height: 60px;
   }
 
+  @media screen and (max-width: 768px) {
+    .iconLinks {
+      margin-right: 10px;
+      height: 30px;
+    }
+  }
+
   .containerTailer {
     background-color: #F0F0F0;
     display: flex;
     align-items: center;
     gap: 725px;
     height: 105px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .containerTailer {
+      gap: 170px;
+      height: 80px;
+      width: 520px;
+    }
   }
 
  

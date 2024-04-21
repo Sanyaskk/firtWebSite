@@ -141,7 +141,7 @@ header {
 @media screen and (max-width: 768px) {
   .mainBlock {
     width: 400px;
-    margin: 150px 30px 350px 30px;
+    margin: 150px 55px 350px 55px;
   }
 }
 
@@ -288,7 +288,7 @@ header {
 @media screen and (max-width: 768px) {
   .pravaTailer {
     height: 65px;
-    width: 50px;
+    width: 70px;
   }
 }
 
@@ -323,8 +323,8 @@ header {
 
 @media screen and (max-width: 768px) {
   .containerTailer {
-    gap: 105px;
+    gap: 170px;
     height: 80px;
-    width: 500px;
+    width: 520px;
   }
 }
