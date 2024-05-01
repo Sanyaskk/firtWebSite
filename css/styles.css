@@ -152,7 +152,7 @@ header {
   }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1440px) {
   .mainUser {
     gap: 650px;
   }
@@ -359,7 +359,7 @@ header {
   }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1440px) {
   .containerTailer {
     gap: 500px;
     height: 80px;
