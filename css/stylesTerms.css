@@ -156,6 +156,12 @@ header {
   }
 }
 
+@media screen and (max-width: 1440px) {
+  .mainUser {
+    gap: 750px;
+  }
+}
+
 .mainBlock {
   background-color: #f4f4f4;
   margin: 150px auto 350px auto;
