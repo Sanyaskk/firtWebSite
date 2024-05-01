@@ -55,6 +55,8 @@ header {
 .navigationMenu {
   display: flex;
   align-items: center;
+  width: 650px;
+  height: 30px;
 }
 
 @media screen and (max-width: 768px) {
@@ -64,9 +66,9 @@ header {
   }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1440px) {
   .navigationMenu {
-    width: auto;
+    width: 650px;
     height: 30px;
   }
 }

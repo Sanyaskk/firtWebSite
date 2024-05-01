@@ -21,6 +21,7 @@ header {
   }
 }
 
+
 @media screen and (max-width: 1920px) {
   .header {
     width: 1440px;
@@ -54,6 +55,8 @@ header {
 .navigationMenu {
   display: flex;
   align-items: center;
+  width: 650px;
+  height: 30px;
 }
 
 @media screen and (max-width: 768px) {
@@ -63,9 +66,9 @@ header {
   }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1440px) {
   .navigationMenu {
-    width: auto;
+    width: 650px;
     height: 30px;
   }
 }
@@ -90,6 +93,7 @@ header {
     font-size: 10px;
   }
 }
+
 
 .navigBut {
   padding: 7px;
@@ -141,7 +145,7 @@ header {
 .mainUser {
   display: flex;
   justify-content: space-around;
-  gap: 1200px;
+  gap: 1000px;
 }
 
 @media screen and (max-width: 768px) {
@@ -150,15 +154,9 @@ header {
   }
 }
 
-@media screen and (max-width: 1920px) {
-  .mainUser {
-    gap: 650px;
-  }
-}
-
 @media screen and (max-width: 1440px) {
   .mainUser {
-    gap: 750px;
+    gap: 650px;
   }
 }
 
@@ -181,11 +179,22 @@ header {
   }
 }
 
+.termsHeading {
+    font-family: "Unbounded", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 20px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
   .terms {
     font-family: "Unbounded", sans-serif;
     font-weight: 400;
     font-size: 12px;
-    width: 550px;
+    width: 530px;
     margin: 20px 10px 10px 10px;
   }
 
@@ -297,7 +306,8 @@ header {
     }
   }
 
-  @media screen and (max-width: 1920px) {
+
+  @media screen and (max-width: 1440px) {
     .containerTailer {
       gap: 500px;
       height: 80px;
