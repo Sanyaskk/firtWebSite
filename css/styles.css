@@ -68,7 +68,7 @@ header {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .navigationMenu {
     height: 30px;
     width: auto;
