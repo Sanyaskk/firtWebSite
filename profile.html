@@ -3,74 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link rel="icon" href="img/siteICO.ico" type="image/x-icon">
+    <title>Profile</title>
+    <link rel="icon" href="img/logoPage.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
-    <link rel = "stylesheet" href = "css/stylesProfile.css">
+    <link rel = "stylesheet" href = "css/profileStyles.css">
 </head>
 <body>
-    <header class = "backgroundMenu">
-    <div class = "mainUser">
-        <nav class = "navigationMenu">
-            <a href = index.html class = "navigBut1">Home</a>
-            <a href = "#" class = "navigBut">Edit</a>
-            <a href = terms.html class = "navigBut">Terms</a>
-            <a href = "#" class = "navigBut">Post</a>
-            <a href = exit.html class = "navigBut">Exit</a>      
+    <header>
+        <a href = "index.html" class = "mainLogo">
+            <img src = "img/logoHeader.png">
+        </a>
+        <nav>
+            <a href = "index.html" class = "Button">Home</a>
+            <a href = "#" class = "Button">New</a>
+            <a href = "#" class = "Button">Popular</a>
+            <a href = "categories.html" class = "Button">Categories</a>
+            <a href = "faqs.html" class = "Button">Faqs</a>
         </nav>
-        <div class = "persInf">
-            <img src = "img/circle.png" alt = "logoUser" class = "personAva">
-            <a href = profile.html class = "userName ">YourName</a>
-        </div>
-    </div>
     </header>
-    <div class = "mainBlock">
-        <img src = "img/circle.png" draggable="false" class = "avaImg" alt = "avaImg"></img>
-        <div class="userInfo">
-            <div class = "containerName">
-                <p class = "userParametrs">Name:</p>
-                <p class = "userParametrsInfo">UserName</p>
+    
+    <main>
+        <div class = "generalInfo">
+            <div class = "mainBlock">
+                <div class = "imgTopicsBlock">
+                    <img src = "img/ava.png" class = "photoUser">
+                    <div class = "firstLineBlocks">
+                        <div class = "blockTopic1">
+                            <p class = "nameTopic1">sport</p>
+                        </div>
+                        <div class = "blockTopic2">
+                            <p class = "nameTopic2">politic</p>
+                        </div>
+                        <div class = "blockTopic3">
+                            <p class = "nameTopic3">IT</p>
+                        </div>
+                    </div>
+                    <div class = "secondLineBlocks">
+                        <div class = "blockTopic4">
+                            <p class = "nameTopic4">devices</p>
+                        </div>
+                        <div class = "blockTopic5">
+                            <p class = "nameTopic5">other</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class = "containerLastName">
-                <p class = "userParametrs">LastName:</p>
-                <p class = "userParametrsInfo">UserLastName</p>
-            </div>
-            <div class = "containerYO">
-                <p class = "userParametrs">Y/O:</p>
-                <p class = "userParametrsInfo">03.03.3033</p>
-            </div>
-            <p class = "userParametrs">BIO:</p>
-            <div class = "blockInfDesk">
-                <div class = "descBlock">
-                    <p class = "txtDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, ad quidem reiciendis alias molestiae et quo cupiditate doloribus quam odio. Maxime quia corporis ipsam! Eligendi, aliquam.</p>
+    
+            <div class = "mainInformation">
+                <div class = "blockName">
+                    <h1 class = "userName">Author Topic</h1>
+                </div>
+                <div class = "blockInfUser">
+                    <h1 class = "nameBlock">Bio</h1>
+                    <p class = "descriptionUser">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets.</p>
                 </div>
             </div>
         </div>
-    </div>
-    <div class = "containerTailer">
-        <div class = "txtBlockNavT">
-            <a href = "#" class = "txtButT1">About us</a>
-            <a href = "#" class = "txtButT">Contacts</a>
-            <a href = "#" class = "txtButT">Support</a>
-        </div>
-        <div class = "pravaTailer">
-            <p class = "textPrava">
-                © 2024 BlogProg. Усі права захищено. 
-            </p>
-        </div>
-        <div class = "iconLinks">
-            <a href = "https://twitter.com">
-                <img src = "img/x.png" alt = "logoX" class = "logoBut">
-            </a>
-            <a href = "https://www.facebook.com">
-                <img src = "img/facebook.webp" alt = "logoX" class = "logoBut">
-            </a>
-            <a href = "https://www.instagram.com">
-                <img src = "img/instagram.webp" alt = "logoX" class = "logoBut">
-            </a>
-        </div>
-    </div>
+    </main>
 </body>
 </html>
