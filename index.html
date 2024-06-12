@@ -3,67 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link rel="icon" href="img/siteICO.ico" type="image/x-icon">
+    <title>News</title>
+    <link rel="icon" href="img/logoPage.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
-    <link rel = "stylesheet" href = "css/styles.css">
+    <link rel = "stylesheet" href = "css/mainStyles.css">
 </head>
 <body>
-    <header class = "backgroundMenu">
-    <div class = "mainUser">
-        <nav class = "navigationMenu">
-            <a href = "#" class = "navigBut1">Home</a>
-            <a href = "#" class = "navigBut">Catalog</a>
-            <a href = terms.html class = "navigBut">Terms</a>
-            <a href = profile.html class = "navigBut">Profile</a>
+    <header>
+        <a href = "index.html" class = "mainLogo">
+            <img src = "img/logoHeader.png" class = "mainLogo">
+        </a>
+        <nav>
+            <a href = "index.html" class = "Button">Home</a>
+            <a href = "#" class = "Button">New</a>
+            <a href = "#" class = "Button">Popular</a>
+            <a href = "categories.html" class = "Button">Categories</a>
+            <a href = "faqs.html" class = "Button">Faqs</a>
         </nav>
-        <div class = "persInf">
-            <a href = "profile.html">
-                <img src = "img/ava.png" alt = "logoUser" class = "personAva">
-            </a>
-            <a href = profile.html class = "userName ">YourName</a>
-        </div>
-    </div>
     </header>
-    <div class = "mainBlock">
-        <div class="imgContainer">
-            <img src = "img/imgBlock.jpg" draggable="false" class = "mainImg" alt = "img">
-        </div>
-        <div class = "learnBut">
-            <p class = "learnText">Learning</p>
-        </div>
-        <p class = "dateInfo">Published 21 Dec 2023</p>
-        <h1 class = "mainText">HTML & CSS foundations</h1>
-        <p class = "descInfo">Lorem ipsum dolor sit amet consecte. Nisl tristique amet eu eget elementum vehicula malesuada. Sem amet vulputate. Vehicula malesuada. Sem amet vulputate. Eget elementum vehicula malesuada. </p>
-        <div class="userInfo">
-            <img src = "img/ava.png" draggable="false" class = "avaImg" alt = "avaImg"></img>
-            <p class = "name">GERY FRADER</p>
-        </div>
-    </div>
-    <div class = "containerTailer">
-        <div class = "txtBlockNavT">
-            <a href = "#" class = "txtButT1">About us</a>
-            <a href = "#" class = "txtButT">Contacts</a>
-            <a href = "#" class = "txtButT">Support</a>
-        </div>
-        <div class = "pravaTailer">
-            <p>
-                © 2024 BlogProg. Усі права захищено. 
-            </p>
-        </div>
-        <div class = "iconLinks">
-            <a href = "https://twitter.com">
-                <img src = "img/x.png" alt = "logoX" class = "logoBut">
+    <main>
+        <div class = "mainNews">
+            <a href = "page.html" class = "mainPhotoNews">
+                <img src = "img/mainPhoto.jpg" class = "mainPhotoNews">
             </a>
-            <a href = "https://www.facebook.com">
-                <img src = "img/facebook.webp" alt = "logoX" class = "logoBut">
-            </a>
-            <a href = "https://www.instagram.com">
-                <img src = "img/instagram.webp" alt = "logoX" class = "logoBut">
-            </a>
+            <div class = "infoAbNews">
+                <a href = "page.html" class = "firstHeader">BREAKING NEWS WILL BE HERE</a>
+                <div class = "descriptionButton">
+                    <a href = "page.html" class = "descriptionNews">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                    <div class = "buttonMore">
+                        <a href = "page.html" class = "textButton">READ MORE</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+
+        <div class = "newsOfDay">
+            <h1 class = "newsDayHeader">NEWS OF THE DAY</h1>
+            <div class = "newsOfDayList">
+                <div class = "blockOfNews1">
+                    <a href = "#" class = "headerInBlock">Header news</a>
+                    <p class = "descriptionInBlock">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class = "blockOfNews2">
+                    <a href = "#" class = "headerInBlock">Header news</a>
+                    <p class = "descriptionInBlock">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class = "blockOfNews3">
+                    <a href = "#" class = "headerInBlock">Header news</a>
+                    <p class = "descriptionInBlock">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class = "blockOfNews4">
+                    <a href = "#" class = "headerInBlock">Header news</a>
+                    <p class = "descriptionInBlock">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
